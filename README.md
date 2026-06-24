@@ -8,7 +8,7 @@ La mia tesi — **Machine Learning e Comunità Energetiche: Modelli per la Previ
 
 ## 🔍 Cosa trovi qui
 
-- **[CER-ML-Energy](link-al-repo)** — Random Forest per la previsione del consumo energetico orario e la gestione intelligente di una CER (Comunità Energetica Rinnovabile) a Benevento
+- **[CER-ML-Energy](https://github.com/gverlingieri/CER-ML-Energy)** — Random Forest per la previsione del consumo energetico orario e la gestione intelligente di una CER (Comunità Energetica Rinnovabile) a Benevento
   - Preprocessing con feature engineering temporale e lag features
   - Integrazione con l'API PVGIS per la produzione fotovoltaica
   - Simulazione Demand Response con raccomandazioni per utente
