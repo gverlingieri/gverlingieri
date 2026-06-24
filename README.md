@@ -1,18 +1,21 @@
-# Ciao, sono Giovanni 👋
+# Hi, I'm Giovanni 👋
 
-Ingegnere informatico con una passione per i dati, l'energia rinnovabile e i sistemi intelligenti.
+Computer Engineer with a passion for data, renewable energy and intelligent systems.
 
-La mia tesi — **Machine Learning e Comunità Energetiche: Modelli per la Previsione e la Gestione Intelligente** — unisce previsione della domanda energetica, ottimizzazione delle risorse condivise e simulazione di strategie di Demand Response all'interno di una CER reale a Benevento.
+I recently completed my BSc thesis — **Machine Learning and Renewable Energy Communities: Models for Forecasting and Intelligent Management** — combining hourly demand forecasting, shared-energy optimisation and Demand Response simulation within a real Renewable Energy Community (CER) in Benevento, Italy.
+
+I bring 15+ years of practical experience in the Italian solar PV sector into machine learning and AI engineering, with a focus on **energy and climate tech**.
 
 ---
 
-## 🔍 Cosa trovi qui
+## 🔍 What you'll find here
 
-- **[CER-ML-Energy](https://github.com/gverlingieri/CER-ML-Energy)** — Random Forest per la previsione del consumo energetico orario e la gestione intelligente di una CER (Comunità Energetica Rinnovabile) a Benevento
-  - Preprocessing con feature engineering temporale e lag features
-  - Integrazione con l'API PVGIS per la produzione fotovoltaica
-  - Simulazione Demand Response con raccomandazioni per utente
-  - Analisi dell'impatto economico sugli incentivi GSE (D.M. 414/2023)
+- **[CER-ML-Energy](https://github.com/gverlingieri/CER-ML-Energy)** — Random Forest model for hourly energy-consumption forecasting and shared-energy optimisation in a Renewable Energy Community (CER) in Benevento
+  - Temporal feature engineering with cyclic sin/cos encoding and lag features (t−1h, t−24h, t−168h)
+  - PVGIS API integration for site-level PV production
+  - Demand Response simulation with per-user load-shifting recommendations
+  - Economic impact analysis on GSE incentives (Italian Decree D.M. 414/2023)
+  - **Results:** R² 0.9935 · MAE 0.0262 kWh · MAPE 5.35% · +19% shared energy after DR
 
 ---
 
@@ -20,8 +23,17 @@ La mia tesi — **Machine Learning e Comunità Energetiche: Modelli per la Previ
 
 `Python` · `scikit-learn` · `pandas` · `NumPy` · `Matplotlib` · `Google Colab`
 
+**Also working with:** Claude API · Claude Code (Anthropic certified, May 2026) for AI-assisted development and agent workflows.
+
 ---
 
-## 📫 Contatti
+## 🌱 Currently exploring
 
-- Email: [gioverlingieri@gmail.com](mailto:gioverlingieri@gmail.com)
+AI engineering with LLMs and agents · ML for distributed energy systems · open to **remote roles** in climate / energy tech.
+
+---
+
+## 📫 Contact
+
+- Email: <gioverlingieri@gmail.com>
+- Based in Benevento, Italy 🇮🇹
